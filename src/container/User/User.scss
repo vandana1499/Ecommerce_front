@@ -1,0 +1,82 @@
+
+$neu-2: #d1d9e6;
+
+$white: #f9f9f9;
+
+.form-div {
+    display: flex;
+    justify-content: center;
+    padding-top:1rem;
+    padding-bottom:4rem;
+
+    form {
+        background: #fff;
+        // box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.2);
+        width: 480px;
+        padding: 15px 28px;
+        box-shadow: 10px 10px 10px #d1d9e6, -10px -10px 10px #f9f9f9;
+        border-radius: 12px;
+        @media (max-width: 550px) {
+            width: 400px;
+        }
+        @media (max-width: 470px) {
+            width: 350px;
+        }
+        @media (max-width: 375px) {
+            width: 300px;
+        }
+        .btn {
+            background: linear-gradient(135deg, #6e8efb, #a777e3);
+            transition: box-shadow 0.5s ease, transform 0.2s ease;
+            width: 100%;
+            height: 40px;
+            border-radius: 25px;
+            margin-top: 50px;
+            font-weight: 700;
+            font-size: 14px;
+            letter-spacing: 1.15px;
+            color: #f9f9f9;
+            box-shadow: 8px 8px 16px #d1d9e6, -8px -8px 16px #f9f9f9;
+            border: none;
+            outline: none;
+            &:hover {
+                box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+            }
+        }
+        input {
+            padding-left: 25px;
+            font-size: 15px;
+            letter-spacing: 0.15px;
+            outline: none;
+            border: none;
+
+            transition: 0.25s ease;
+            border-radius: 8px;
+
+            box-shadow: inset 2px 2px 4px $neu-2, inset -2px -2px 4px $white;
+
+            &:focus {
+                box-shadow: inset 4px 4px 4px $neu-2, inset -4px -4px 4px $white;
+            }
+        }
+        .input-group-prepend {
+            .input-group-text {
+                background: transparent;
+           
+                .fa-user {
+                    color: #6e8efb;
+                }
+                .fa-lock {
+                    color: #6e8efb;
+                }
+                .fa-mail-bulk {
+                    color: #6e8efb;
+                }
+            }
+        }
+    }
+}
+.alert {
+    margin: 0 auto 1rem;
+    width: 60%;
+}

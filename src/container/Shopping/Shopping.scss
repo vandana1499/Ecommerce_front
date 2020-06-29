@@ -1,0 +1,55 @@
+.Filters {
+    padding: 0px 10px;
+    .laodBtn
+    {
+          
+             margin-right:1rem;
+             margin-bottom: 2rem;
+             margin-top:2rem;
+            background:#db6c40;
+            border:none;
+            outline:none;
+            width:200px;
+            transform: translate(30px);;
+            border-radius:0px;
+            box-shadow:8px 8px 16px #d1d9e6, -8px -8px 16px #f9f9f9
+    }
+        .form-control {
+            border: none;
+            outline: none;
+            background: transparent;
+        }
+        .input-group-text {
+            background: transparent;
+            border: none;
+            outline: none;
+        input[type=checkbox]
+        {
+            cursor: pointer;
+        }
+        input[type=radio]
+        {
+            cursor: pointer;
+        }
+           
+        }
+  
+    .filter {
+        background: rgb(255, 255, 255);
+
+        padding: 15px 20px;
+        box-shadow: 10px 10px 10px #d1d9e6, -10px -10px 10px #f9f9f9;
+        border-radius: 12px;
+        margin-bottom: 2rem;
+    }
+}
+
+
+// style={
+    // {
+   //     marginRight:"1rem",
+    //     background:"#6e8efb",
+    //     border:"none",
+    //     outline:"none",
+    //     boxShadow:"8px 8px 16px #d1d9e6, -8px -8px 16px #f9f9f9"
+    //     }}
